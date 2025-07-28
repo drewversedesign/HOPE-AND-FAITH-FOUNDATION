@@ -1,0 +1,52 @@
+
+User-agent: *
+Allow: /
+Sitemap: https://hopeandfaithfoundation.online/sitemap.xml
+
+# Optimize crawling for foundation content
+Crawl-delay: 3
+
+# Block unnecessary paths for better crawl budget
+Disallow: /api/
+Disallow: /*.json$
+Disallow: /admin/
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /*?preview=*
+Disallow: /*?test=*
+
+# Allow important static assets
+Allow: /images/
+Allow: /css/
+Allow: /js/
+Allow: /fonts/
+Allow: /lovable-uploads/
+
+# Special instructions for specific bots
+User-agent: Googlebot
+Crawl-delay: 1
+
+User-agent: Bingbot
+Crawl-delay: 2
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+# Block problematic crawlers
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
