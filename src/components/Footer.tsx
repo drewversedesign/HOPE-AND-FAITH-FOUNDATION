@@ -151,18 +151,8 @@ const Footer = () => {
           
           <div className="pt-8 flex flex-col md:flex-row justify-between items-center">
             <div className="mb-4 md:mb-0">
-              <p className="text-gray-400 text-sm mb-2">
-                © {new Date().getFullYear()} Hope and Faith Foundation. All rights reserved.
-              </p>
               <p className="text-gray-400 text-sm">
-                Developed by <a 
-                  href="https://www.drewversedesign.online" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="text-orange-400 hover:text-orange-300 transition-colors"
-                >
-                  Drewverse Design
-                </a>
+                © {new Date().getFullYear()} Hope and Faith Foundation. All rights reserved.
               </p>
             </div>
             <div className="flex space-x-6">
