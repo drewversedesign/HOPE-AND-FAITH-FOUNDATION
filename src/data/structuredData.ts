@@ -117,10 +117,10 @@ export const createOrganizationStructuredData = () => ({
   openingHours: 'Mo-Fr 08:00-17:00, Sa 09:00-13:00',
   priceRange: 'Free',
   telephone: '+256756100112',
-  email: 'info@hopeandfaithfoundation.online',
+  email: 'info@amahorofoundation.ug',
   sameAs: [
-    'https://www.facebook.com/hopeandfaithfoundation',
-    'https://www.instagram.com/hopeandfaithfoundation'
+    'https://www.facebook.com/amahorofoundation',
+    'https://www.instagram.com/amahorofoundation'
   ]
 });
 
@@ -328,7 +328,7 @@ export const createLocalBusinessStructuredData = () => ({
   name: 'Amahoro Foundation',
   image: 'https://w-514912-18-61.lovable.app/og-image.png',
   telephone: '+256756100112',
-  email: 'info@hopeandfaithfoundation.online',
+  email: 'info@amahorofoundation.ug',
   address: {
     '@type': 'PostalAddress',
     streetAddress: 'Kampala Road, Central Division',

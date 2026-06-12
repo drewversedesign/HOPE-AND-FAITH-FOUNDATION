@@ -143,7 +143,7 @@ const SEO: React.FC<SEOProps> = ({
       {isBlogPost && category && <meta property="article:section" content={category} />}
       {isBlogPost && publishDate && <meta property="article:published_time" content={publishDate} />}
       {isBlogPost && modifiedDate && <meta property="article:modified_time" content={modifiedDate} />}
-      {isBlogPost && <meta property="article:publisher" content="https://hopeandfaithfoundation.org" />}
+      {isBlogPost && <meta property="article:publisher" content="https://amahorofoundation.org" />}
       
       {/* Enhanced Twitter Cards */}
       <meta name="twitter:card" content="summary_large_image" />
