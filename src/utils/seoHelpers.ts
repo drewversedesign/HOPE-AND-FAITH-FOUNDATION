@@ -71,7 +71,7 @@ export const enhanceKeywords = (pathname: string, baseKeywords: string[]): strin
     return [
       ...baseKeywords,
       ...commonUgandaKeywords,
-      'Hope and Faith Foundation Uganda',
+      'Amahoro Foundation Uganda',
       'Uganda children foundation',
       'mission vision children',
       'foundation leadership Uganda',

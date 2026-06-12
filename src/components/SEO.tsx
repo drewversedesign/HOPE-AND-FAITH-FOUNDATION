@@ -17,10 +17,10 @@ import {
 } from '../data/structuredData';
 
 const SEO: React.FC<SEOProps> = ({
-  title = 'Hope and Faith Foundation - Transforming Lives Through Love and Care',
-  description = 'Hope and Faith Foundation is a Ugandan foundation dedicated to improving the lives of children through education, health, protection, and community development programs.',
+  title = 'Amahoro Foundation - Transforming Lives Through Love and Care',
+  description = 'Amahoro Foundation is a Ugandan foundation dedicated to improving the lives of children through education, health, protection, and community development programs.',
   type = 'website',
-  name = 'Hope and Faith Foundation',
+  name = 'Amahoro Foundation',
   imageUrl = '/lovable-uploads/526dc38a-25fa-40d4-b520-425b23ae0464.png',
   publishDate,
   modifiedDate,
@@ -138,7 +138,7 @@ const SEO: React.FC<SEOProps> = ({
       <meta property="og:image" content={absoluteImageUrl} />
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
-      <meta property="og:site_name" content="Hope and Faith Foundation" />
+      <meta property="og:site_name" content="Amahoro Foundation" />
       <meta property="og:locale" content="en_US" />
       {isBlogPost && category && <meta property="article:section" content={category} />}
       {isBlogPost && publishDate && <meta property="article:published_time" content={publishDate} />}
@@ -151,14 +151,14 @@ const SEO: React.FC<SEOProps> = ({
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={absoluteImageUrl} />
-      <meta name="twitter:image:alt" content={`${title} - Hope and Faith Foundation`} />
+      <meta name="twitter:image:alt" content={`${title} - Amahoro Foundation`} />
       <meta name="twitter:creator" content="@hopefaithfoundation" />
       <meta name="twitter:site" content="@hopefaithfoundation" />
       
       {/* LinkedIn Enhanced */}
       <meta property="og:image:secure_url" content={absoluteImageUrl} />
       <meta property="og:image:type" content="image/png" />
-      <meta property="og:image:alt" content={`${title} - Hope and Faith Foundation`} />
+      <meta property="og:image:alt" content={`${title} - Amahoro Foundation`} />
       <meta name="author" content={author || name} />
       
       {/* Pinterest Rich Pins */}
@@ -172,9 +172,9 @@ const SEO: React.FC<SEOProps> = ({
       <meta property="og:updated_time" content={modifiedDate || publishDate || new Date().toISOString()} />
       
       {/* Enhanced Social Media */}
-      <meta name="application-name" content="Hope and Faith Foundation" />
+      <meta name="application-name" content="Amahoro Foundation" />
       <meta name="apple-mobile-web-app-title" content="Hope & Faith Foundation" />
-      <meta name="msapplication-tooltip" content="Hope and Faith Foundation - Transforming children's lives in Uganda" />
+      <meta name="msapplication-tooltip" content="Amahoro Foundation - Transforming children's lives in Uganda" />
       <meta name="msapplication-starturl" content="/" />
       <meta name="msapplication-tap-highlight" content="no" />
       

@@ -2,8 +2,8 @@
 export const createOrganizationStructuredData = () => ({
   '@context': 'https://schema.org',
   '@type': ['NGO', 'LocalBusiness', 'Organization'],
-  name: 'Hope and Faith Foundation',
-  alternateName: ['Hope and Faith Foundation Uganda', 'Hope & Faith Foundation'],
+  name: 'Amahoro Foundation',
+  alternateName: ['Amahoro Foundation Uganda', 'Hope & Faith Foundation'],
   url: 'https://hopeandfaithfoundation.online',
   logo: {
     '@type': 'ImageObject',
@@ -12,7 +12,7 @@ export const createOrganizationStructuredData = () => ({
     height: 512
   },
   image: 'https://hopeandfaithfoundation.online/lovable-uploads/526dc38a-25fa-40d4-b520-425b23ae0464.png',
-  description: 'Hope and Faith Foundation is a registered Ugandan non-profit organization transforming children\'s lives through comprehensive education, healthcare, protection, and community development programs in Central Region Uganda.',
+  description: 'Amahoro Foundation is a registered Ugandan non-profit organization transforming children\'s lives through comprehensive education, healthcare, protection, and community development programs in Central Region Uganda.',
   slogan: 'Transforming Lives Through Love and Care',
   contactPoint: [
     {
@@ -44,7 +44,7 @@ export const createOrganizationStructuredData = () => ({
     longitude: '32.5825'
   },
   foundingDate: '2020',
-  legalName: 'Hope and Faith Foundation',
+  legalName: 'Amahoro Foundation',
   mission: 'To transform the lives of children through love, care, education, health, protection, and community development programs',
   areaServed: [
     {
@@ -152,12 +152,12 @@ export const createBlogPostStructuredData = (
   dateModified: modifiedDate || publishDate,
   author: {
     '@type': 'Organization',
-    name: author || 'Hope and Faith Foundation',
+    name: author || 'Amahoro Foundation',
     url: 'https://hopeandfaithfoundation.online'
   },
   publisher: {
     '@type': 'Organization',
-    name: 'Hope and Faith Foundation',
+    name: 'Amahoro Foundation',
     logo: {
       '@type': 'ImageObject',
       url: 'https://hopeandfaithfoundation.online/lovable-uploads/526dc38a-25fa-40d4-b520-425b23ae0464.png',
@@ -187,10 +187,10 @@ export const createEducationCenterFAQData = () => ({
     },
     {
       '@type': 'Question',
-      name: 'How can children enroll in Hope and Faith Foundation programs?',
+      name: 'How can children enroll in Amahoro Foundation programs?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Families can contact Hope and Faith Foundation directly through our website or visit our education center in Kampala. We work with families to ensure children have access to quality education regardless of their financial situation.'
+        text: 'Families can contact Amahoro Foundation directly through our website or visit our education center in Kampala. We work with families to ensure children have access to quality education regardless of their financial situation.'
       }
     },
     {
@@ -210,15 +210,15 @@ export const createGeneralFAQData = () => ({
   mainEntity: [
     {
       '@type': 'Question',
-      name: 'What does Hope and Faith Foundation do?',
+      name: 'What does Amahoro Foundation do?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Hope and Faith Foundation is a Ugandan non-profit organization dedicated to transforming children\'s lives through comprehensive programs in education, health, protection, and community development. We work directly with vulnerable children and families to provide sustainable support and opportunities.'
+        text: 'Amahoro Foundation is a Ugandan non-profit organization dedicated to transforming children\'s lives through comprehensive programs in education, health, protection, and community development. We work directly with vulnerable children and families to provide sustainable support and opportunities.'
       }
     },
     {
       '@type': 'Question',
-      name: 'How can I donate to Hope and Faith Foundation?',
+      name: 'How can I donate to Amahoro Foundation?',
       acceptedAnswer: {
         '@type': 'Answer',
         text: 'You can donate through our secure online platform, bank transfer, or contact us directly. We accept one-time donations and monthly sponsorships. All donations go directly to supporting our programs and the children we serve.'
@@ -226,7 +226,7 @@ export const createGeneralFAQData = () => ({
     },
     {
       '@type': 'Question',
-      name: 'How can I volunteer with Hope and Faith Foundation?',
+      name: 'How can I volunteer with Amahoro Foundation?',
       acceptedAnswer: {
         '@type': 'Answer',
         text: 'We welcome volunteers in various capacities including education support, healthcare assistance, community outreach, and administrative support. Contact us through our website to learn about current volunteer opportunities and requirements.'
@@ -234,10 +234,10 @@ export const createGeneralFAQData = () => ({
     },
     {
       '@type': 'Question',
-      name: 'Where does Hope and Faith Foundation operate?',
+      name: 'Where does Amahoro Foundation operate?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Hope and Faith Foundation operates primarily in Uganda, with programs focused in Central Region communities around Kampala. We work directly with local communities to ensure our programs meet specific needs and cultural contexts.'
+        text: 'Amahoro Foundation operates primarily in Uganda, with programs focused in Central Region communities around Kampala. We work directly with local communities to ensure our programs meet specific needs and cultural contexts.'
       }
     }
   ]
@@ -249,7 +249,7 @@ export const createProgramsFAQData = () => ({
   mainEntity: [
     {
       '@type': 'Question',
-      name: 'What education programs does Hope and Faith Foundation offer?',
+      name: 'What education programs does Amahoro Foundation offer?',
       acceptedAnswer: {
         '@type': 'Answer',
         text: 'We provide education support including school fees, learning materials, uniforms, after-school tutoring, scholarship programs, and direct educational support to help children stay in school and succeed academically.'
@@ -283,7 +283,7 @@ export const createDonationFAQData = () => ({
       name: 'Is my donation tax-deductible?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Hope and Faith Foundation is a registered non-profit organization in Uganda. Donation receipts are provided for tax purposes. Please consult with your tax advisor regarding deductibility in your jurisdiction.'
+        text: 'Amahoro Foundation is a registered non-profit organization in Uganda. Donation receipts are provided for tax purposes. Please consult with your tax advisor regarding deductibility in your jurisdiction.'
       }
     },
     {
@@ -325,7 +325,7 @@ export const createLocalBusinessStructuredData = () => ({
   '@context': 'https://schema.org',
   '@type': 'LocalBusiness',
   '@id': 'https://hopeandfaithfoundation.online/#organization',
-  name: 'Hope and Faith Foundation',
+  name: 'Amahoro Foundation',
   image: 'https://hopeandfaithfoundation.online/lovable-uploads/526dc38a-25fa-40d4-b520-425b23ae0464.png',
   telephone: '+256756100112',
   email: 'info@hopeandfaithfoundation.online',
@@ -364,7 +364,7 @@ export const createServiceStructuredData = (serviceName: string, description: st
   description: description,
   provider: {
     '@type': 'NGO',
-    name: 'Hope and Faith Foundation',
+    name: 'Amahoro Foundation',
     url: 'https://hopeandfaithfoundation.online'
   },
   areaServed: {

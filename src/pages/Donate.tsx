@@ -52,7 +52,7 @@ const Donate = () => {
   return (
     <PageLayout>
       <SEO 
-        title="Donate to Children in Uganda - Hope and Faith Foundation" 
+        title="Donate to Children in Uganda - Amahoro Foundation" 
         description="Transform a child's life with your donation. Support education, healthcare, nutrition, and protection for vulnerable children in Uganda. Secure online donations with immediate impact."
         keywords={['donate children Uganda', 'sponsor child Uganda', 'Uganda charity donation', 'children foundation donation', 'support vulnerable children', 'education funding Uganda', 'child welfare donations', 'monthly child sponsorship']}
       />

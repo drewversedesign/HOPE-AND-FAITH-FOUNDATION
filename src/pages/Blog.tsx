@@ -17,8 +17,8 @@ const Blog = () => {
   return (
     <PageLayout>
       <SEO 
-        title="Hope and Faith Foundation - News and insights about our mission" 
-        description="Stay updated with the latest news and insights about children's welfare and community development from Hope and Faith Foundation."
+        title="Amahoro Foundation - News and insights about our mission" 
+        description="Stay updated with the latest news and insights about children's welfare and community development from Amahoro Foundation."
         imageUrl={featuredPost?.imageUrl || "/lovable-uploads/6b0637e9-4a7b-40d0-b219-c8b7f879f93e.png"}
         keywords={['children welfare', 'community development', 'foundation news', 'Uganda children', 'charity updates', 'education programs']}
         type="website"

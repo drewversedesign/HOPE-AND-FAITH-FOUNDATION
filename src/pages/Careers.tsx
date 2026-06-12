@@ -15,7 +15,7 @@ const Careers = () => {
   }, []);
 
   const handleApplyForJob = (jobTitle: string) => {
-    redirectToWhatsApp("volunteer", `Hello, I would like to apply for the ${jobTitle} position at Hope and Faith Foundation. Can you please provide me with more information about the application process and requirements?`);
+    redirectToWhatsApp("volunteer", `Hello, I would like to apply for the ${jobTitle} position at Amahoro Foundation. Can you please provide me with more information about the application process and requirements?`);
   };
   
   const opportunities = [
@@ -51,8 +51,8 @@ const Careers = () => {
   return (
     <PageLayout>
       <SEO 
-        title="Careers - Hope and Faith Foundation" 
-        description="Join our team and make a difference in children's lives. Explore career opportunities at Hope and Faith Foundation in Uganda."
+        title="Careers - Amahoro Foundation" 
+        description="Join our team and make a difference in children's lives. Explore career opportunities at Amahoro Foundation in Uganda."
         keywords={['foundation jobs Uganda', 'children foundation careers', 'NGO jobs Uganda', 'charity work opportunities']}
       />
       

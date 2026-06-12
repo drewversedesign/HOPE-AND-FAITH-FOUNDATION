@@ -68,7 +68,7 @@ const Programs = () => {
   return (
     <PageLayout>
       <SEO 
-        title="Children Support Programs - Hope and Faith Foundation Uganda" 
+        title="Children Support Programs - Amahoro Foundation Uganda" 
         description="Comprehensive children support programs in Uganda: education scholarships, healthcare, child protection, family empowerment, and vocational training. Join our mission to transform young lives."
         keywords={['children programs Uganda', 'education support Kampala', 'child protection Uganda', 'family empowerment programs', 'Uganda charity programs', 'sponsor child Uganda', 'children scholarship programs', 'health programs children Uganda']}
       />
@@ -130,7 +130,7 @@ const Programs = () => {
                     <Button 
                       variant="outline" 
                       size="sm"
-                      onClick={() => redirectToWhatsApp("programs", `Hello, I would like to learn more about the ${program.title} program at Hope and Faith Foundation.`)}
+                      onClick={() => redirectToWhatsApp("programs", `Hello, I would like to learn more about the ${program.title} program at Amahoro Foundation.`)}
                     >
                       Learn More
                       <ArrowRight className="ml-2 h-4 w-4" />

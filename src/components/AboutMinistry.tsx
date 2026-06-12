@@ -13,7 +13,7 @@ const AboutMinistry = () => {
             Our Mission & Vision
           </h2>
           <p className="text-gray-700 text-lg max-w-3xl mx-auto">
-            HOPE AND FAITH FOUNDATION is a registered foundation in Uganda dedicated to transforming the lives of children through comprehensive care, education, and community development programs.
+            AMAHORO FOUNDATION is a registered foundation in Uganda dedicated to transforming the lives of children through comprehensive care, education, and community development programs.
           </p>
         </div>
 

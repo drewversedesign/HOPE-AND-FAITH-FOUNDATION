@@ -38,9 +38,9 @@ const Contact = () => {
   return (
     <PageLayout>
       <SEO 
-        title="Contact Hope and Faith Foundation Uganda - Get Involved Today" 
-        description="Contact Hope and Faith Foundation in Kampala, Uganda. Reach out for volunteering opportunities, donations, partnerships, child sponsorship, or general inquiries. Join our mission today."
-        keywords={['contact children foundation Uganda', 'Hope and Faith Foundation contact', 'Uganda charity contact Kampala', 'volunteer opportunities Uganda', 'foundation contact information', 'get involved children Uganda', 'partnership opportunities Uganda']}
+        title="Contact Amahoro Foundation Uganda - Get Involved Today" 
+        description="Contact Amahoro Foundation in Kampala, Uganda. Reach out for volunteering opportunities, donations, partnerships, child sponsorship, or general inquiries. Join our mission today."
+        keywords={['contact children foundation Uganda', 'Amahoro Foundation contact', 'Uganda charity contact Kampala', 'volunteer opportunities Uganda', 'foundation contact information', 'get involved children Uganda', 'partnership opportunities Uganda']}
       />
       
       <section className="pt-24 pb-16 px-4 sm:px-6 lg:px-8">
