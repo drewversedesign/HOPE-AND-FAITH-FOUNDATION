@@ -4,14 +4,14 @@ export const createOrganizationStructuredData = () => ({
   '@type': ['NGO', 'LocalBusiness', 'Organization'],
   name: 'Amahoro Foundation',
   alternateName: ['Amahoro Foundation Uganda', 'Hope & Faith Foundation'],
-  url: 'https://hopeandfaithfoundation.online',
+  url: 'https://w-514912-18-61.lovable.app',
   logo: {
     '@type': 'ImageObject',
-    url: 'https://hopeandfaithfoundation.online/og-image.png',
+    url: 'https://w-514912-18-61.lovable.app/og-image.png',
     width: 512,
     height: 512
   },
-  image: 'https://hopeandfaithfoundation.online/og-image.png',
+  image: 'https://w-514912-18-61.lovable.app/og-image.png',
   description: 'Amahoro Foundation is a registered Ugandan non-profit organization transforming children\'s lives through comprehensive education, healthcare, protection, and community development programs in Central Region Uganda.',
   slogan: 'Transforming Lives Through Love and Care',
   contactPoint: [
@@ -153,18 +153,18 @@ export const createBlogPostStructuredData = (
   author: {
     '@type': 'Organization',
     name: author || 'Amahoro Foundation',
-    url: 'https://hopeandfaithfoundation.online'
+    url: 'https://w-514912-18-61.lovable.app'
   },
   publisher: {
     '@type': 'Organization',
     name: 'Amahoro Foundation',
     logo: {
       '@type': 'ImageObject',
-      url: 'https://hopeandfaithfoundation.online/og-image.png',
+      url: 'https://w-514912-18-61.lovable.app/og-image.png',
       width: 512,
       height: 512
     },
-    url: 'https://hopeandfaithfoundation.online'
+    url: 'https://w-514912-18-61.lovable.app'
   },
   description: description,
   keywords: keywords.join(', '),
@@ -324,9 +324,9 @@ export const createDonationFAQData = () => ({
 export const createLocalBusinessStructuredData = () => ({
   '@context': 'https://schema.org',
   '@type': 'LocalBusiness',
-  '@id': 'https://hopeandfaithfoundation.online/#organization',
+  '@id': 'https://w-514912-18-61.lovable.app/#organization',
   name: 'Amahoro Foundation',
-  image: 'https://hopeandfaithfoundation.online/og-image.png',
+  image: 'https://w-514912-18-61.lovable.app/og-image.png',
   telephone: '+256756100112',
   email: 'info@hopeandfaithfoundation.online',
   address: {
@@ -341,7 +341,7 @@ export const createLocalBusinessStructuredData = () => ({
     latitude: 0.3476,
     longitude: 32.5825
   },
-  url: 'https://hopeandfaithfoundation.online',
+  url: 'https://w-514912-18-61.lovable.app',
   openingHours: ['Mo-Fr 08:00-17:00', 'Sa 09:00-13:00'],
   priceRange: 'Free'
 });
@@ -365,7 +365,7 @@ export const createServiceStructuredData = (serviceName: string, description: st
   provider: {
     '@type': 'NGO',
     name: 'Amahoro Foundation',
-    url: 'https://hopeandfaithfoundation.online'
+    url: 'https://w-514912-18-61.lovable.app'
   },
   areaServed: {
     '@type': 'Country',

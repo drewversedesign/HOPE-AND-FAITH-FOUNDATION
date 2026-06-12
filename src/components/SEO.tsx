@@ -71,7 +71,7 @@ const SEO: React.FC<SEOProps> = ({
   // Create breadcrumb data for non-home pages
   const breadcrumbData = location.pathname !== '/' 
     ? createBreadcrumbStructuredData([
-        { name: 'Home', url: 'https://hopeandfaithfoundation.online' },
+        { name: 'Home', url: 'https://w-514912-18-61.lovable.app' },
         { name: title.split(' - ')[0], url: currentUrl }
       ])
     : null;

@@ -1,5 +1,5 @@
 
-export const createAbsoluteUrl = (path: string, baseUrl: string = 'https://hopeandfaithfoundation.online'): string => {
+export const createAbsoluteUrl = (path: string, baseUrl: string = 'https://w-514912-18-61.lovable.app'): string => {
   return path.startsWith('http') ? path : `${baseUrl}${path}`;
 };
 
