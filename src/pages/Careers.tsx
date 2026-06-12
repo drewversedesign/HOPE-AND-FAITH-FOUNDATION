@@ -173,7 +173,7 @@ const Careers = () => {
                 <div className="bg-white rounded-xl p-6 border border-gray-200">
                   <div className="flex flex-col items-center text-center">
                     <img 
-                      src="/lovable-uploads/526dc38a-25fa-40d4-b520-425b23ae0464.png"
+                      src="/og-image.png"
                       alt="HR Team"
                       className="w-32 h-32 rounded-full mb-4 object-cover"
                     />
