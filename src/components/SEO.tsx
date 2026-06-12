@@ -21,7 +21,7 @@ const SEO: React.FC<SEOProps> = ({
   description = 'Amahoro Foundation is a Ugandan foundation dedicated to improving the lives of children through education, health, protection, and community development programs.',
   type = 'website',
   name = 'Amahoro Foundation',
-  imageUrl = '/lovable-uploads/526dc38a-25fa-40d4-b520-425b23ae0464.png',
+  imageUrl = '/og-image.png',
   publishDate,
   modifiedDate,
   author,

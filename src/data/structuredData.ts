@@ -7,11 +7,11 @@ export const createOrganizationStructuredData = () => ({
   url: 'https://hopeandfaithfoundation.online',
   logo: {
     '@type': 'ImageObject',
-    url: 'https://hopeandfaithfoundation.online/lovable-uploads/526dc38a-25fa-40d4-b520-425b23ae0464.png',
+    url: 'https://hopeandfaithfoundation.online/og-image.png',
     width: 512,
     height: 512
   },
-  image: 'https://hopeandfaithfoundation.online/lovable-uploads/526dc38a-25fa-40d4-b520-425b23ae0464.png',
+  image: 'https://hopeandfaithfoundation.online/og-image.png',
   description: 'Amahoro Foundation is a registered Ugandan non-profit organization transforming children\'s lives through comprehensive education, healthcare, protection, and community development programs in Central Region Uganda.',
   slogan: 'Transforming Lives Through Love and Care',
   contactPoint: [
@@ -160,7 +160,7 @@ export const createBlogPostStructuredData = (
     name: 'Amahoro Foundation',
     logo: {
       '@type': 'ImageObject',
-      url: 'https://hopeandfaithfoundation.online/lovable-uploads/526dc38a-25fa-40d4-b520-425b23ae0464.png',
+      url: 'https://hopeandfaithfoundation.online/og-image.png',
       width: 512,
       height: 512
     },
@@ -326,7 +326,7 @@ export const createLocalBusinessStructuredData = () => ({
   '@type': 'LocalBusiness',
   '@id': 'https://hopeandfaithfoundation.online/#organization',
   name: 'Amahoro Foundation',
-  image: 'https://hopeandfaithfoundation.online/lovable-uploads/526dc38a-25fa-40d4-b520-425b23ae0464.png',
+  image: 'https://hopeandfaithfoundation.online/og-image.png',
   telephone: '+256756100112',
   email: 'info@hopeandfaithfoundation.online',
   address: {

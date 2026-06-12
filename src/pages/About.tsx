@@ -11,7 +11,7 @@ const About = () => {
     window.scrollTo(0, 0);
   }, []);
   return <PageLayout>
-      <SEO title="About Us - Amahoro Foundation | Our Mission & Vision" description="Learn about Amahoro Foundation's mission to transform children's lives in Uganda through education, health, protection, and community development programs. Meet our team and discover our impact." imageUrl="/lovable-uploads/526dc38a-25fa-40d4-b520-425b23ae0464.png" keywords={['about bright futures foundation', 'Uganda children\'s foundation', 'mission and vision', 'foundation leadership', 'our story', 'foundation history', 'children foundation Uganda']} />
+      <SEO title="About Us - Amahoro Foundation | Our Mission & Vision" description="Learn about Amahoro Foundation's mission to transform children's lives in Uganda through education, health, protection, and community development programs. Meet our team and discover our impact." imageUrl="/og-image.png" keywords={['about bright futures foundation', 'Uganda children\'s foundation', 'mission and vision', 'foundation leadership', 'our story', 'foundation history', 'children foundation Uganda']} />
       <section className="pt-24 pb-16 px-4 sm:px-6 lg:px-8">
         <div className="container mx-auto">
           <div className="max-w-6xl mx-auto">
