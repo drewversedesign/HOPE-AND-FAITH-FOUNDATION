@@ -83,7 +83,7 @@ const ContactForm = () => {
         from_name: emailData.name,
         from_email: emailData.email,
         message: emailData.message,
-        to_name: 'Hope and Faith Foundation Team', // Adding recipient name parameter
+        to_name: 'Amahoro Foundation Team', // Adding recipient name parameter
         reply_to: emailData.email // Keeping reply_to for compatibility
       };
       

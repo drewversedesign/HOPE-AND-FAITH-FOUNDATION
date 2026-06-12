@@ -16,21 +16,21 @@ const ImpactStories = () => {
     {
       name: "Auntie Rose",
       age: 11,
-      story: "Devine lost her whole family and was abandoned even by relatives. I opened my home to her, but I couldn't provide what she truly needed. Hope and Faith Foundation filled in that gap — school fees, books, meals, and most importantly, love. She now smiles again.",
+      story: "Devine lost her whole family and was abandoned even by relatives. I opened my home to her, but I couldn't provide what she truly needed. Amahoro Foundation filled in that gap — school fees, books, meals, and most importantly, love. She now smiles again.",
       program: "Guardian of Devine",
       image: "/lovable-uploads/4bfa0d71-3ed2-4693-90b6-35142468907f.png"
     },
     {
       name: "James",
       age: 8,
-      story: "Tom was left all alone after his parents died. I found him wandering the streets and brought him home, though we have so little ourselves. Hope and Faith Foundation has been a lifeline. They've given Tom clothes, meals, and an education. I never thought someone would care for him like their own child.",
+      story: "Tom was left all alone after his parents died. I found him wandering the streets and brought him home, though we have so little ourselves. Amahoro Foundation has been a lifeline. They've given Tom clothes, meals, and an education. I never thought someone would care for him like their own child.",
       program: "Guardian of Tom",
       image: "/lovable-uploads/4bfa0d71-3ed2-4693-90b6-35142468907f.png"
     },
     {
       name: "Grace",
       age: 10,
-      story: "When my sister and her husband passed away from COVID-19, I took in little Racheal with no idea how I would care for her. The support from Hope and Faith Foundation gave her not just food and schooling, but also hope. She now dreams of becoming an artist. I thank God every day for the people who stand with children like Racheal.",
+      story: "When my sister and her husband passed away from COVID-19, I took in little Racheal with no idea how I would care for her. The support from Amahoro Foundation gave her not just food and schooling, but also hope. She now dreams of becoming an artist. I thank God every day for the people who stand with children like Racheal.",
       program: "Guardian of Racheal",
       image: "/lovable-uploads/4bfa0d71-3ed2-4693-90b6-35142468907f.png"
     }
@@ -93,7 +93,7 @@ const ImpactStories = () => {
               <h3 className="text-2xl font-bold mb-4 text-gray-900">Your Support Creates Stories Like These</h3>
               <p className="text-gray-700 mb-6">
                 Every donation, every prayer, every volunteer hour contributes to changing a child's life. 
-                When you support Hope and Faith Foundation, you become part of these transformation stories.
+                When you support Amahoro Foundation, you become part of these transformation stories.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <button 

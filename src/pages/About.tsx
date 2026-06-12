@@ -11,7 +11,7 @@ const About = () => {
     window.scrollTo(0, 0);
   }, []);
   return <PageLayout>
-      <SEO title="About Us - Hope and Faith Foundation | Our Mission & Vision" description="Learn about Hope and Faith Foundation's mission to transform children's lives in Uganda through education, health, protection, and community development programs. Meet our team and discover our impact." imageUrl="/lovable-uploads/526dc38a-25fa-40d4-b520-425b23ae0464.png" keywords={['about bright futures foundation', 'Uganda children\'s foundation', 'mission and vision', 'foundation leadership', 'our story', 'foundation history', 'children foundation Uganda']} />
+      <SEO title="About Us - Amahoro Foundation | Our Mission & Vision" description="Learn about Amahoro Foundation's mission to transform children's lives in Uganda through education, health, protection, and community development programs. Meet our team and discover our impact." imageUrl="/lovable-uploads/526dc38a-25fa-40d4-b520-425b23ae0464.png" keywords={['about bright futures foundation', 'Uganda children\'s foundation', 'mission and vision', 'foundation leadership', 'our story', 'foundation history', 'children foundation Uganda']} />
       <section className="pt-24 pb-16 px-4 sm:px-6 lg:px-8">
         <div className="container mx-auto">
           <div className="max-w-6xl mx-auto">
@@ -29,7 +29,7 @@ const About = () => {
           }} transition={{
             duration: 0.5
           }} className="text-4xl font-bold mb-6">
-              About Hope and Faith Foundation
+              About Amahoro Foundation
             </motion.h1>
             
             <div className="prose prose-lg max-w-none">
@@ -41,7 +41,7 @@ const About = () => {
               duration: 0.5,
               delay: 0.2
             }} className="text-xl text-gray-600 mb-12">
-                Hope and Faith Foundation is a registered foundation in Uganda dedicated to transforming the lives of children through comprehensive care, education, and community development programs.
+                Amahoro Foundation is a registered foundation in Uganda dedicated to transforming the lives of children through comprehensive care, education, and community development programs.
               </motion.p>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-16">
@@ -107,7 +107,7 @@ const About = () => {
                 <h2 className="text-3xl font-bold mb-6">Our Story</h2>
                 <div className="bg-white rounded-xl border border-gray-200 p-8 shadow-sm mb-8">
                   <p className="text-gray-600 mb-4">
-                    Founded with a heart for Uganda's most vulnerable children, Hope and Faith Foundation 
+                    Founded with a heart for Uganda's most vulnerable children, Amahoro Foundation 
                     began as a grassroots initiative to address the immediate needs of children in our local communities.
                   </p>
                   <p className="text-gray-600 mb-4">

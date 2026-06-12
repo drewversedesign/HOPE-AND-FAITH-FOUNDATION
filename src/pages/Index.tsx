@@ -28,10 +28,10 @@ const Index = () => {
   return (
     <PageLayout>
       <SEO 
-        title="Hope and Faith Foundation - Transforming Children's Lives in Uganda" 
-        description="Hope and Faith Foundation is a registered Ugandan NGO transforming children's lives through comprehensive education, healthcare, protection, and community development programs. Join our mission to create lasting change for vulnerable children and families in Central Region Uganda."
+        title="Amahoro Foundation - Transforming Children's Lives in Uganda" 
+        description="Amahoro Foundation is a registered Ugandan NGO transforming children's lives through comprehensive education, healthcare, protection, and community development programs. Join our mission to create lasting change for vulnerable children and families in Central Region Uganda."
         imageUrl="/lovable-uploads/526dc38a-25fa-40d4-b520-425b23ae0464.png"
-        keywords={['Hope and Faith Foundation', 'children foundation Uganda', 'child welfare Kampala', 'education programs Uganda', 'sponsor child Uganda', 'Uganda NGO', 'donate children Uganda', 'community development Uganda', 'child protection Uganda', 'vulnerable children support']}
+        keywords={['Amahoro Foundation', 'children foundation Uganda', 'child welfare Kampala', 'education programs Uganda', 'sponsor child Uganda', 'Uganda NGO', 'donate children Uganda', 'community development Uganda', 'child protection Uganda', 'vulnerable children support']}
       />
       <Hero />
       <PhotoGallery />

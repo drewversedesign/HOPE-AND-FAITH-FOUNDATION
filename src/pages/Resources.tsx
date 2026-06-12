@@ -7,7 +7,7 @@ import SEO from '@/components/SEO';
 
 const Resources = () => {
   const handleWhatsAppRequest = (documentName: string) => {
-    const message = `Hello, I would like to request ${documentName} from Hope and Faith Foundation.`;
+    const message = `Hello, I would like to request ${documentName} from Amahoro Foundation.`;
     const whatsappUrl = `https://wa.me/256756100112?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
@@ -110,7 +110,7 @@ const Resources = () => {
   return (
     <PageLayout>
       <SEO 
-        title="Resources - HOPE AND FAITH FOUNDATION" 
+        title="Resources - AMAHORO FOUNDATION" 
         description="Access our annual reports, educational materials, financial statements, and policy documents. Transparency and accountability in all our operations."
         keywords={['annual reports', 'financial transparency', 'educational resources', 'child protection policies', 'charity accountability']}
       />

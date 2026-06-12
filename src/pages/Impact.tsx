@@ -46,7 +46,7 @@ const Impact = () => {
   return (
     <PageLayout>
       <SEO 
-        title="Our Impact - Hope and Faith Foundation" 
+        title="Our Impact - Amahoro Foundation" 
         description="See the real impact of our work with children and families in Uganda. Success stories, statistics, and testimonials from our programs."
         keywords={['children foundation impact', 'Uganda charity results', 'success stories', 'program outcomes']}
       />

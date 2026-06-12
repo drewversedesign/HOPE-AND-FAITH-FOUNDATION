@@ -50,7 +50,7 @@ const Volunteer = () => {
   ];
 
   const handleApplyForRole = (roleTitle: string) => {
-    redirectToWhatsApp("volunteer", `Hello, I would like to apply for the ${roleTitle} volunteer position at Hope and Faith Foundation. Can you please provide me with more information about the application process?`);
+    redirectToWhatsApp("volunteer", `Hello, I would like to apply for the ${roleTitle} volunteer position at Amahoro Foundation. Can you please provide me with more information about the application process?`);
   };
 
   const handleStartApplication = () => {
@@ -58,13 +58,13 @@ const Volunteer = () => {
   };
 
   const handleLearnAboutTraining = () => {
-    redirectToWhatsApp("volunteer", "Hello, I would like to learn more about the volunteer training program at Hope and Faith Foundation. Can you please provide me with details about the training process and requirements?");
+    redirectToWhatsApp("volunteer", "Hello, I would like to learn more about the volunteer training program at Amahoro Foundation. Can you please provide me with details about the training process and requirements?");
   };
   
   return (
     <PageLayout>
       <SEO 
-        title="Volunteer - HOPE AND FAITH FOUNDATION" 
+        title="Volunteer - AMAHORO FOUNDATION" 
         description="Join our mission to transform children's lives in Uganda. Volunteer opportunities in education, healthcare, community outreach, and more."
         keywords={['volunteer Uganda', 'children ministry volunteer', 'volunteer opportunities', 'help children Uganda']}
       />

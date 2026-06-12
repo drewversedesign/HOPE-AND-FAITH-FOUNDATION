@@ -37,8 +37,8 @@ const Footer = () => {
       const templateParams = {
         from_name: "Newsletter Subscriber",
         from_email: email,
-        message: `New newsletter subscription request from the Hope and Faith Foundation website.`,
-        to_name: 'Hope and Faith Foundation Team',
+        message: `New newsletter subscription request from the Amahoro Foundation website.`,
+        to_name: 'Amahoro Foundation Team',
         reply_to: email
       };
       
@@ -79,7 +79,7 @@ const Footer = () => {
         <div className="w-full px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-4 gap-10 pb-10 border-b border-gray-700">
             <div className="lg:col-span-2">
-              <h3 className="text-2xl font-bold mb-4 text-orange-400">HOPE AND FAITH FOUNDATION</h3>
+              <h3 className="text-2xl font-bold mb-4 text-orange-400">AMAHORO FOUNDATION</h3>
               <p className="text-gray-300 mb-6">
                 Transforming lives through love and care. We are dedicated to nurturing, protecting, and empowering children in Uganda through comprehensive programs that address their educational, health, and developmental needs.
               </p>
@@ -152,7 +152,7 @@ const Footer = () => {
           <div className="pt-8 flex flex-col md:flex-row justify-between items-center">
             <div className="mb-4 md:mb-0">
               <p className="text-gray-400 text-sm">
-                © {new Date().getFullYear()} Hope and Faith Foundation. All rights reserved.
+                © {new Date().getFullYear()} Amahoro Foundation. All rights reserved.
               </p>
             </div>
             <div className="flex space-x-6">

@@ -47,7 +47,7 @@ const Navbar = () => {
                 "text-lg sm:text-xl font-bold transition-colors duration-300",
                 isScrolled ? "text-gray-900" : "text-white"
               )}>
-                HOPE AND FAITH FOUNDATION
+                AMAHORO FOUNDATION
               </span>
             </Link>
           </div>
