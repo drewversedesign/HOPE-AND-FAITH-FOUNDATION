@@ -1,7 +1,7 @@
 
 User-agent: *
 Allow: /
-Sitemap: https://hopeandfaithfoundation.online/sitemap.xml
+Sitemap: https://w-514912-18-61.lovable.app/sitemap.xml
 
 # Optimize crawling for foundation content
 Crawl-delay: 3
